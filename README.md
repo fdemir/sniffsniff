@@ -2,9 +2,11 @@
 
 I am trying to learn Rust programming language. Here is a small project that sniffs the ports of a given host. I want to give some info what is port, tcp and host.
 
-port: a number that is used to identify a specific process to which an incoming network message is to be forwarded to.
-tcp: a protocol that is used to establish a connection between two hosts.
-host: a computer that is connected to a network.
+**port:** a number that is used to identify a specific process to which an incoming network message is to be forwarded to.
+
+**tcp:** a protocol that is used to establish a connection between two hosts.
+
+**host:** a computer that is connected to a network.
 
 ### What is port sniffing anyway?
 
@@ -29,7 +31,6 @@ Diagram:
 ## Usage
 
 ## Build
-
 
 ## Run
 
