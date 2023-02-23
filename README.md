@@ -14,7 +14,7 @@ Port sniffing is a technique that is used to scan the ports of a host. It is use
 
 ### How does it work?
 
-The program sends a TCP SYN packet to the host and waits for a response. If the port is open, the host will send a TCP SYN/ACK packet. If the port is closed, the host will send a TCP RST packet. The program will then print the port number and the response.
+The program sends a TCP SYN packet to the host and waits for a response. If the port is open, the host will send a TCP SYN/ACK packet. If the port is closed, the host will send a TCP RST packet. ....
 
 Diagram:
 
