@@ -27,13 +27,33 @@ Diagram:
 - &'static str: a string that lives for the entire duration of the program.
 - io::stdout().flush(): flushes the buffer of the stdout.
 - thread::spawn: spawns a new thread.
+- afunc()?: the ? means that if the result of afunc() is an Err, the whole function will return the Err value.
 
 ## Usage
+```
+cargo run -- -j <threads> <ipaddr>
+```
 
+## Example
+```
+cargo run -- -j 10000 192.168.1.1
+```
+```bash
+....
+Open ports: (4 total)
+53
+80
+52869
+443
+```
 ## Build
-
+```
+cargo build
+```
 ## Run
+```
+cargo run
+```
 
 ## License
-
-MIT
+Licensed under the MIT license. See the LICENSE file for details.
